@@ -1,0 +1,35 @@
+{
+  "name": "@asyncpay/subscribe",
+  "version": "0.0.0",
+  "description": "SDK to enable your customers subscribe to your services or plans",
+  "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Asyncpay-io/subscribe-js"
+  },
+  "keywords": [
+    "asyncpay",
+    "checkout",
+    "subscription",
+    "subscribe",
+    "fintech"
+  ],
+  "author": "Asyncpay",
+  "license": "BSL-1.0",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "prettier": "^3.0.3",
+    "rollup": "^4.0.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
