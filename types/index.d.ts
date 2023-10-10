@@ -1,16 +1,7 @@
-export type Customer = {
-  email: string;
-  firstName?: string;
-  lastName?: string;
-  phoneNumber?: string;
-};
-
 export type AsyncpaySubscribeInterface = {
   publicKey: string;
-  customerEmail?: string;
-  customerUUID?: string;
-  customer: Customer;
-  subscriptionPlanUUID?: string;
+  customerUUID: string;
+  subscriptionPlanUUID: string;
   environment?: "dev" | "local" | "prod";
   successURL?: string;
   cancelURL?: string;
