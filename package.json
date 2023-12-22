@@ -1,6 +1,6 @@
 {
   "name": "@asyncpay/subscribe",
-  "version": "0.0.0",
+  "version": "0.0.11",
   "description": "SDK to enable your customers subscribe to your services or plans",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
